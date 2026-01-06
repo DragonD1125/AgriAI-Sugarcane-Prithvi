@@ -1,0 +1,44 @@
+# Data files (large)
+data/
+*.npz
+*.tif
+*.csv
+!data/.gitkeep
+
+# Model weights
+models/
+*.pth
+*.pt
+*.joblib
+!models/.gitkeep
+
+# Outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.cache/
+*.log
